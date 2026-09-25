@@ -16,7 +16,7 @@
 # response_format json_schema; max_tokens 131072. Image input (data: URL)
 # succeeds; this host does not serve audio or video input.
 # Limits and pricing: https://api.inferway.ai/v1/models and
-# https://inferway.ai/pricing (accessed 2026-09-24): context 262,144 tokens;
+# https://inferway.ai/pricing (accessed 2026-09-25): context 393,216 tokens;
 # USD per 1M tokens $0.14 input / $0.28 output / $0.0028 cache hit
 # (pricing_version mimo-v2.6-flash-usd-2026-09-23). These are list prices; a
 # time-limited launch promotion is not recorded here.
@@ -30,7 +30,7 @@ output = 0.28
 cache_read = 0.0028
 
 [limit]
-context = 262_144
+context = 393_216
 
 [modalities]
 input = ["text", "image"]
